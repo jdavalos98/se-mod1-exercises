@@ -27,8 +27,8 @@ There is no additional setup. Make sure first change into the Erroneous Creates 
 * `wizard_spec.rb`(done)
 * `medusa_spec.rb`(done)
 * `werewolf_spec.rb`(done)
-* `centaur_spec.rb`
-* `hippogriff_spec.rb`
+* `centaur_spec.rb`(done)
+* `hippogriff_spec.rb`(done)
 
 ### Common Mistakes
 
