@@ -24,7 +24,7 @@ There is no additional setup. Make sure first change into the Erroneous Creates 
 * `dragon_spec.rb`(done)
 * `hobbit_spec.rb`(done)
 * `pirate_spec.rb`(done)
-* `wizard_spec.rb`
+* `wizard_spec.rb`(done)
 * `medusa_spec.rb`
 * `werewolf_spec.rb`
 * `centaur_spec.rb`
