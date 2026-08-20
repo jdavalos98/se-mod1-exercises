@@ -1,5 +1,5 @@
-require './lib/vampire'
-
+require_relative '../lib/vampire'
+require 'pry'
 RSpec.describe Vampire do
   it "has a name" do
     vampire = Vampire.new("Dracula", "red")
@@ -9,6 +9,7 @@ RSpec.describe Vampire do
 
   it "is named something else" do
     vampire = Vampire.new("Vladimir", "blue")
+    #binding.pry
 
     expect(vampire.name).to eq("Vladimir")
   end
