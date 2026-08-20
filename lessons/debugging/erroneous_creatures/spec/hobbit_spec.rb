@@ -1,8 +1,10 @@
-require './lib/hobbit'
+require '../lib/hobbit'
+require 'pry'
 
 RSpec.describe Hobbit do
   it "has a name" do
     hobbit = Hobbit.new("Bilbo")
+    #binding.pry
 
     expect(hobbit.name).to eq("Bilbo")
   end
@@ -43,7 +45,7 @@ RSpec.describe Hobbit do
     32.times do
       hobbit.celebrate_birthday
     end
-
+    #binding.pry
     expect(hobbit.adult?).to eq(false)
   end
 
@@ -53,7 +55,7 @@ RSpec.describe Hobbit do
     33.times do
       hobbit.celebrate_birthday
     end
-
+    #binding.pry
     expect(hobbit.adult?).to eq(true)
 
     # still adult, one year later
@@ -72,7 +74,7 @@ RSpec.describe Hobbit do
     expect(hobbit.play).to eq(true)
   end
 
-  it "can get tired if play 3times" do
+  it "can get tired if play 3 times" do
     hobbit = Hobbit.new('Otho')
 
     3.times do

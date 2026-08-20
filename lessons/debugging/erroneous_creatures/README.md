@@ -19,9 +19,9 @@ There is no additional setup. Make sure first change into the Erroneous Creates 
 
 ## Suggested Order
 
-* `unicorn_spec.rb`
-* `vampire_spec.rb`
-* `dragon_spec.rb`
+* `unicorn_spec.rb`(done)
+* `vampire_spec.rb`(done)
+* `dragon_spec.rb`(done)
 * `hobbit_spec.rb`
 * `pirate_spec.rb`
 * `wizard_spec.rb`
