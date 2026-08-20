@@ -15,7 +15,7 @@ class Hobbit
   end
 
   def adult?
-   @age >= 33
+  @age >= 33
   end
 
   def play

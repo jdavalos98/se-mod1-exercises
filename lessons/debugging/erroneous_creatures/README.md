@@ -22,7 +22,7 @@ There is no additional setup. Make sure first change into the Erroneous Creates 
 * `unicorn_spec.rb`(done)
 * `vampire_spec.rb`(done)
 * `dragon_spec.rb`(done)
-* `hobbit_spec.rb`
+* `hobbit_spec.rb`(done)
 * `pirate_spec.rb`
 * `wizard_spec.rb`
 * `medusa_spec.rb`

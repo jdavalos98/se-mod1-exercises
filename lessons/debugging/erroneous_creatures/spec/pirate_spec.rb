@@ -1,4 +1,5 @@
-require './lib/pirate'
+require '../lib/pirate'
+require 'pry'
 
 RSpec.describe Pirate do
   it "has name" do
@@ -42,7 +43,7 @@ RSpec.describe Pirate do
     pirate = Pirate.new("Jack")
 
     expect(pirate.cursed?).to eq(false)
-
+    
     pirate.commit_heinous_act
 
     expect(pirate.cursed?).to eq(false)
