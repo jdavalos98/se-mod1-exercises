@@ -3,7 +3,7 @@ class Dragon
   attr_reader :name, :rider, :color
   attr_accessor :hungryness, :food_consumed, :fire
 
-  def initalize(name, color, rider)
+  def initialize(name, color, rider)
     @name = name
     @color = color
     @rider = rider
@@ -16,12 +16,12 @@ class Dragon
   end
 
   def eat
-   @food_consumed += 1
-   if food_consumed < 3
-     @hungryness = true
-   else
-     @hungryness = false
-   end
+  @food_consumed += 1
+  if food_consumed < 3
+    @hungryness = true
+  else
+    @hungryness = false
+  end
   end
 
   def breathe_fire
